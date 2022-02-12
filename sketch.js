@@ -11,7 +11,7 @@ function setup() {
   mightycanvas = createCanvas(Resx, Resy, WEBGL);
   firstframecanvas = new p5(temp_sketch);
   lastframecanvas = new p5(temp_sketch);
-  frameRate(15);
+  frameRate(5);
   fsetup();
   stop_frame = TWO_PI * 70
 }
