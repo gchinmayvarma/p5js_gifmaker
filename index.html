@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.0/p5.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.0/addons/p5.sound.min.js"></script>
+  <title>Hello </title>
+  <meta charset="utf-8" />
+  <style>
+    body {
+      background-color: rgb(10, 10, 10);
+    }
+
+    button {
+      /* size the button to be big and have a blue color and rounded corners */
+      /* width: 16vw; */
+      /* height: 5vh; */
+      background-color: rgb(43, 37, 68);
+      border-radius: 12px;
+      border: none;
+      /* 1px solid rgba(255, 0, 55, 0.479); */
+      color: rgb(255, 255, 255);
+      font-size: 20px;
+      text-align: center;
+      vertical-align: middle;
+      padding: 1rem;
+      padding-left: 1.5rem;
+      padding-right: 1.5rem;
+
+      /* margin-top: 10px; */
+      /* margin-left: 10px; */
+      cursor: pointer;
+      position: absolute;
+      bottom: 0;
+      z-index: 2;
+      transition: 300ms;
+    }
+
+    button:hover {
+      background-color: rgb(255, 0, 106);
+      /* border: 1px solid rgba(76, 0, 255, 0.39); */
+      color: rgb(255, 255, 255);
+    }
+  </style>
+</head>
+
+<body>
+  <!-- <img src="a.gif" alt="SRM Team RoboCon" width="360" height="360"> -->
+
+  <script src="maxwellsgif.js"></script>
+  <script src="sketch.js"></script>
+  <button id="animation_start_button" onclick="startAnimation()">Start Animation</button>
+</body>
+
+</html>
